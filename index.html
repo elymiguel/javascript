@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>JavaScript</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="/js/main.js"></script>
+    </head>
+    <body onload="load()">
+    <h2>Java Script</h2>
+    <button type="button" onclick="welcome()">Welcome Here</button>
+    <button type="button" onclick="thanks()">Thanks Here</button>
+    <p id="thanks" onclick="redirecionar()"></p>
+    <p id="mousehover" onmouseover="hover()" onmouseout="hoverOut()">Passe o Mouse Here</p>
+    <p onmouseover="elementHover(this)" onmouseout="elementHoverOut(this)">Passe o Mouse Here Sem ID</p>
+    <select onchange="functionChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+    </body>
+</html>
