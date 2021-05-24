@@ -2,7 +2,7 @@
 // Introdução Java Script
 //
 
-/*
+
 var nome="Mike"
 var sobrenome="OutSystems"
 var nasc=1987
@@ -122,7 +122,7 @@ var idade = prompt("Qual sua idade?");
 console.log(validaIdade(idade));
 
 
-*/
+
 // Function OnClick Button
 
 function welcome(){
